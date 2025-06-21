@@ -35,7 +35,7 @@ export default function History() {
         history.map((entry, index) => (
           <div key={index} className="card mb-4 shadow-sm">
             <div className="card-body">
-              <h5 className="card-title text-primary">Query {index + 1}</h5>
+              <h5 className="card-title text-primary">Question {index + 1}</h5>
               <p><strong>User Input - </strong> {entry.userInput}</p>
               
 
